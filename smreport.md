@@ -1,7 +1,7 @@
 ---
 layout: dashboard
 title: SM Report
-permalink: /socialed/smreport/
+permalink: /socialed/smreport.html
 ---
 
 
