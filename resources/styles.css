@@ -24,6 +24,12 @@ p{
 .overview-info{
     border:1px solid black;
 }
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
 
 .table{
 	width: 100%;
