@@ -1,6 +1,5 @@
 html{
 	overflow-y:scroll;
-    background-color: #66ffff;
 }
 
 body {
@@ -59,6 +58,10 @@ p{
 
 .comp{
 	width:9%;
+}
+
+.index{
+   background-color: #66ffff; 
 }
 
 
