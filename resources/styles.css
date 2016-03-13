@@ -1,5 +1,6 @@
 html{
 	overflow-y:scroll;
+    background-color: #66ffff;
 }
 
 body {
@@ -60,6 +61,4 @@ p{
 	width:9%;
 }
 
-.navbar .selected{
-    color: #09c;
-}
+
