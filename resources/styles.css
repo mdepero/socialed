@@ -13,12 +13,12 @@ p{
 .sidebar a{
 	display: list-item;
 	text-decoration: none;
+	list-style-type: none;
 }
 
 .sidebar a:hover{
 	text-decoration: underline;
 	color: #0c9;
-	list-style-type: none;
 }
 
 .table{
