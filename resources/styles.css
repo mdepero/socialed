@@ -60,6 +60,6 @@ p{
 	width:9%;
 }
 
-#overview-tab{
+.selected{
     color: #0099cc;
 }
