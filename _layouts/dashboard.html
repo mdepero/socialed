@@ -17,11 +17,21 @@
 
 <div class="col-lg-10 main">
 
-<ul class="nav navbar-nav navbar-right">
-    <li class="navbar-right">
-        <a href="#"><i class="fa fa-user"></i> Cole's Burger Shack <i class="fa fa-caret-down"></i></a>
-    </li>
+
+
+<ul class="nav nav-tabs navbar-right">
+  ...
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-user"></i> Cole's Burger Shack <span class="fa fa-caret-down"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li href="#">Here's a menu item</li>
+    </ul>
+  </li>
 </ul>
+
+
 
 {% include nav.html %}
 
