@@ -4,6 +4,7 @@ html{
 
 body {
     font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    
 }
 
 p{
@@ -19,6 +20,16 @@ p{
 .sidebar a:hover{
 	text-decoration: underline;
 	color: #0c9;
+}
+
+.overview-info{
+    border:1px solid black;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 .table{
@@ -45,3 +56,6 @@ p{
 .comp{
 	width:9%;
 }
+
+
+
