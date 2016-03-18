@@ -11,6 +11,13 @@ p{
 	text-align: left !important;
 }
 
+
+.dashboard{
+
+	border: 1px solid black;
+}
+
+
 .sidebar a{
 	display: list-item;
 	text-decoration: none;
