@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div class="container-fluid">
+
+
+<div class="col-lg-2 sidebar">
+
+{% include sidebar.html %}
+
+</div>
+
+<div class="col-lg-10 main">
+
+<div class="row">
+
+	<ul class="nav nav-tabs navbar-right">
+	  <li role="presentation" class="dropdown">
+	    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	      <i class="fa fa-user"></i> Cole's Burger Shack <span class="fa fa-caret-down"></span>
+	    </a>
+	    <ul class="dropdown-menu">
+	      <li href="#">Here's a menu item</li>
+	    </ul>
+	  </li>
+	</ul>
+
+</div>
+
+
+<div id="dashboard">
+{% include nav.html %}
+
+
+
+	{% include content.html %}
+</div>
+
+
+</div>
+
+
+{% include footer.html %}
+
+
+</div>
+
+</body>
+
+</html>

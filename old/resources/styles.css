@@ -1,0 +1,68 @@
+html{
+	overflow-y:scroll;
+}
+
+body {
+    font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+    
+}
+
+p{
+	text-align: left !important;
+}
+
+
+#dashboard{
+
+	border: 1px solid black;
+}
+
+
+.sidebar a{
+	display: list-item;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.sidebar a:hover{
+	text-decoration: underline;
+	color: #0c9;
+}
+
+.overview-info{
+    border:1px solid black;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.table{
+	width:100%;
+
+	display: block;
+
+	overflow-x: auto;
+
+}
+.table tr:nth-child(2n){
+	background-color: #eee;
+}
+.table tr:first-child td{
+	font-weight: bold;
+}
+
+
+.btn{
+	margin-bottom: 20px !important;
+}
+
+
+.comp{
+	width:9%;
+}
+
+
+
