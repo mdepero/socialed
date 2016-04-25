@@ -13,14 +13,15 @@ body.nav-sm .container.body .right_col {
 }
 body.nav-sm .navbar.nav_title {
     width: 70px;
+    
 }
 
 body.nav-sm .navbar.nav_title a span {
     display: none;
 }
 
-body.nav-sm .navbar.nav_title img {
-    padding-bottom: 5px;
+body.nav-md .navbar.nav_title a img {
+    max-width: 93%;
 }
 
 .site_title i {
