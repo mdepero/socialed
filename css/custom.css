@@ -666,6 +666,10 @@ a:focus {
     display: block;
 }
 
+.side-menu li {
+    list-style-type: none;
+}
+
 .nav.side-menu> li > a {
     margin-bottom: 6px;
 }
